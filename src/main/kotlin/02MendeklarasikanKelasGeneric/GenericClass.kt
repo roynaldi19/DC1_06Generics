@@ -14,5 +14,5 @@ class ArrayList<T> : List<T>{
 
 fun main() {
     val longArrayList = ArrayList<Long>()
-    val firstLong = longArrayList.get(0)
+    val firstLong = longArrayList[0]
 }

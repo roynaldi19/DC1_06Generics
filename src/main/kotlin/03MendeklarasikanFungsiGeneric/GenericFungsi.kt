@@ -1,4 +1,4 @@
-package `03MendeklarasikanFungsiGeneric `
+package `03MendeklarasikanFungsiGeneric`
 
 public fun <T> List<T>.slice(indices: Iterable<Int>) {
     /*...*/
