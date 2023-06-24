@@ -1,5 +1,9 @@
 package `02MendeklarasikanKelasGeneric`
 
+interface List<T>{
+    operator fun get(index: Int) : T
+}
+
 class LongList : List<Long>{
     override fun get(index: Int): Long {
         return this[index]
